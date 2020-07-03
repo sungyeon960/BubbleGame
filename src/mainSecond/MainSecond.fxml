@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainSecond.MainSecondController">
+	<children>
+		<ImageView fx:id="image" fitHeight="518.0" fitWidth="600.0" layoutY="75.0" onMouseClicked="#startAction" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@../../../../Desktop/d.gif" />
+			</image>
+		</ImageView>
+	</children>
+</AnchorPane>
