@@ -39,7 +39,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.util.Duration;
 import javafx.scene.control.Label;
 
-public class BubbleBobbleController implements Initializable {
+public class BubbleBobbleController2 implements Initializable {
 
 	@FXML
 
@@ -547,7 +547,7 @@ public class BubbleBobbleController implements Initializable {
 					s500.setLayoutY(bobi.getLayoutY());
 				}
 			}
-		} else if (cherry1.isVisible()) {
+		}else if (cherry1.isVisible()) {
 			if (bobi.getLayoutY() == 387) {
 				if (cherry1Bump == bobiBump) {
 					cherry1.setVisible(false);
@@ -556,7 +556,7 @@ public class BubbleBobbleController implements Initializable {
 					s500.setLayoutY(bobi.getLayoutY());
 				}
 			}
-		} else if (cherry2.isVisible()) {
+		}else if (cherry2.isVisible()) {
 			if (bobi.getLayoutY() == 247) {
 				if (cherry2Bump == bobiBump) {
 					cherry2.setVisible(false);
@@ -565,15 +565,15 @@ public class BubbleBobbleController implements Initializable {
 					s500.setLayoutY(bobi.getLayoutY());
 				}
 			}
-		} else if (banana1.isVisible()) {
+		}else if (banana1.isVisible()) {
 			if (bobi.getLayoutY() == 107) {
 				if (bananaBump == bobiBump) {
 					banana1.setVisible(false);
 					s500.setVisible(false);
 					s700.setVisible(true);
+					clear.setVisible(true);
 					s700.setLayoutX(bobi.getLayoutX());
 					s700.setLayoutY(bobi.getLayoutY());
-					clear.setVisible(true);
 				}
 			}
 		}

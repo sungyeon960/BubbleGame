@@ -24,7 +24,7 @@ public class MainSecondController implements Initializable {
 
 	@FXML
 	public void startAction() throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("../bubbleBobble/BubbleBobble.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("../wow/BubbleBobble.fxml"));
 		Scene scene = new Scene(root);
 		Stage window = new Stage();
 		window.setScene(scene);
